@@ -27,7 +27,7 @@ gulp.task('html-build', function() {
         .pipe(gulp.dest(dist));
 });
 
-gulp.task('server', function() {
+gulp.task('serve', function() {
     browserSync.init({
         server: './',
     });
